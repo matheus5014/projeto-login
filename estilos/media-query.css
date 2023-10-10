@@ -20,6 +20,15 @@
         float: right;
         width: 70%;
     }
+
+    div#formulario > h1{
+        text-align: center;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        text-align: justify;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -27,20 +36,30 @@
     body{
         background-image: linear-gradient(to top, #6946a5, #ffffff);
     }
-    
+
     section#login{
         width: 990px;
 
     }
 
     section#login >div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario > h1{
+        text-align: center;
+
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        text-align: justify;
     }
 }
